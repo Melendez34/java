@@ -4,10 +4,10 @@ public class ParImpar {
 	public static void main(String[] args) {
 		/*
 		 * Crear un nuevo proyecto llamado NumeroParImpar
-		 * crear el método main
-		 * crear una función que evalúe si un número es par o impar (se puede usar el operador ternario)
+		 * crear el mÃ©todo main
+		 * crear una funciÃ³n que evalï¿½e si un nï¿½mero es par o impar (se puede usar el operador ternario)
 		 * Imprimir en terminal el resultado
-		 * extra, investigar cómo usar la clase Scanner en java.
+		 * extra, investigar cï¿½mo usar la clase Scanner en java.
 */
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Escribe el numero a evaluar: ");
