@@ -13,6 +13,7 @@ public class Descuentos {
 		System.out.println("Ingrese el total de su compra:");
 		Scanner sca = new Scanner(System.in);
 		float cuenta = sca.nextFloat();
+		/*
 		if(cuenta >= 10000) {
 			float total = (float) (cuenta * 0.70);
 			System.out.println("Su pago es de: " + total);
@@ -24,6 +25,21 @@ public class Descuentos {
 			System.out.println("Su pago es de: " + total);
 		}else {
 			System.out.println("Su pago es de: " + cuenta);
+		}*/
+		
+		//Corrección de ejercicio
+		if(cuenta >= 1 && cuenta < 1000){
+			float total = (float) (cuenta * 1);
+			System.out.println("Su pago es de: " + total);
+		}else if(cuenta >= 1000 && cuenta < 5000){
+			float total = (float) (cuenta * 0.90);
+			System.out.println("Su pago es de: " + total);
+		}else if(cuenta >= 5000 && cuenta < 10000){
+			float total = (float) (cuenta * 0.80);
+			System.out.println("Su pago es de: " + total);
+		}else if(cuenta >= 10000) {
+			float total = (float) (cuenta * 0.70);
+			System.out.println("Su pago es de: " + total);
 		}
 		
 	}
