@@ -14,7 +14,6 @@ public abstract class FiguraGeometrica {
 	public FiguraGeometrica(String nombre) {
 		this.nombre = nombre;
 	}
-
 	public String getNombre() {
 		return nombre;
 	}

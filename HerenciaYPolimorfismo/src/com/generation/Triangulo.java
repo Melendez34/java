@@ -11,7 +11,7 @@ public class Triangulo extends FiguraGeometrica {
 	}
 	@Override
 	public float perimetro() {
-		// TODO Auto-generated method stub
+		
 		return 0;
 	}
 }

@@ -20,7 +20,6 @@ public class Main {
 		triangulo1.setAlto(15);
 		triangulo1.setLargo(10);
 		System.out.println("El area del " + triangulo1.getNombre() + " es " + triangulo1.calcularArea());
-		
 
 	}
 
